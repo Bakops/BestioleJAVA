@@ -25,14 +25,14 @@ public class BestiolesApplication implements CommandLineRunner {
 
         // save()
         Person p1 = new Person();
-        p1.setFirstname("Alice");
-        p1.setLastname("Martin");
+        p1.setFirstname("Toure");
+        p1.setLastname("Bakou");
         p1.setAge(30);
         personRepository.save(p1);
 
         Person p2 = new Person();
-        p2.setFirstname("Bob");
-        p2.setLastname("Dupont");
+        p2.setFirstname("Toure");
+        p2.setLastname("Baks");
         p2.setAge(40);
         personRepository.save(p2);
 
